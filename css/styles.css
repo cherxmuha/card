@@ -1,0 +1,91 @@
+body {
+    padding: 0px;
+    background-color: #F4D04E;
+}
+
+.container {
+    padding: 24px;
+}
+
+.cool {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    box-shadow: 
+    0 0 0 1px black inset,
+    8px 8px 0 0 black;
+    ;
+    border-radius: 20px;
+    width: 384px;
+    height: 522px;
+    background-color: white;
+}
+
+.illustration {
+    height: 200px;
+    width: 336px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+}
+
+h3, h4, h1, p, h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Figtree', sans-serif;
+    letter-spacing: 0px;
+    line-height: 150%;
+}
+
+.button {
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 29px;
+    width: 82px;
+    background-color: #F4D04E;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-bottom: 24px;
+}
+
+h3, h5 {
+    font-weight: 800;
+    font-size: 14px;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #6B6B6B;
+}
+
+.author {
+    display: flex;
+    gap:12px;
+    align-items: center;
+}
